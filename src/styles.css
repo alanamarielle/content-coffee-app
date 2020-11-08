@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+body,
+footer,
+header,
+h1,
+h2,
+h3,
+a,
+li,
+ul,
+footer {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4em;
+  font-family: "Open Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: ivory;
+}
