@@ -16,7 +16,8 @@ a {
 }
 
 .brand-header {
-  height: fit-content;
+  max-height: fit-content;
+  max-width: 100%;
   background-color: #2c365e;
   border-radius: 10px;
   padding: 10px;
@@ -24,7 +25,7 @@ a {
 }
 
 .content-name {
-  font-size: 100px;
+  font-size: 4rem;
   text-align: center;
   font-family: "Exo", sans-serif;
   color: #cfc5d3;
@@ -53,4 +54,12 @@ a {
 
 .main-ul-li:hover {
   background-color: #ccc;
+}
+@media only screen and (min-width: 600px) {
+  .main-ul {
+    flex-direction: row;
+  }
+  .main-ul-li {
+    width: 100%;
+  }
 }
